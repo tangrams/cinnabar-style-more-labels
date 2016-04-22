@@ -681,6 +681,7 @@ styles:
     icons:
         base: points
         texture: pois
+        interactive: true
         blend_order: 1
     text-blend-order:
         base: text
