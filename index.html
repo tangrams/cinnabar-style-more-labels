@@ -12,7 +12,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Tangram: Cinnabar Style</title>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.0.0-beta.2/leaflet.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.0.1/leaflet.css" />
 
     <style>
         body {
@@ -30,7 +30,7 @@
 
 
     .label {
-        width: auto;
+        /*width: 200px;*/
         /*margin-left: -100px;*/
         position: absolute;
         z-index: 500;
@@ -59,22 +59,6 @@
         opacity: 2.0;
         margin: 0px;
     }
-
-    .labelLine {
-        /*border: 2px solid gold;*/
-    }
-
-    .labelLine:hover {
-        border: 2px solid gold;
-        -webkit-touch-callout: none;
-        -webkit-user-select: none;
-        -khtml-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
-        cursor: default;
-    }
-
     </style>
   </head>
 
@@ -83,7 +67,7 @@
     <div id="map"></div>
 
     <!-- 3rd party libraries -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.0.0-beta.2/leaflet.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.0.1/leaflet.js"></script>
     <!-- bog-standard leaflet URL hash -->
     <script src="lib/leaflet-hash.js"></script>
 
@@ -91,7 +75,7 @@
     <script src="lib/keymaster.js"></script>
 
     <!-- Main tangram library -->
-    <script src="https://mapzen.com/tangram/0.6/tangram.min.js"></script>
+    <script src="https://mapzen.com/tangram/0.10/tangram.min.js"></script>
 
     <!-- Demo module -->
     <script src="main.js"></script>
