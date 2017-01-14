@@ -1,17 +1,17 @@
-# Tangram Cinnabar Style (More Labels)
+# Tangram Cinnabar Style
 
 **Cinnabar** is a classic look and should be your go-to for general mapping applications. Give [OpenStreetMap](http://www.openstreetmap.org/) data a refined basemap skin using the [Tangram](http://github.com/tangrams/tangram) graphics library and Mapzen's versatile [Vector Tiles](https://mapzen.com/projects/vector-tiles/). 
 
 This style is a High Road influenced evolution of the [Traditional](http://tangrams.github.io/tangram/#mapzen,40.70531887544228,-74.0097749233246,16) style [Stamen](http://stamen.com/) created for Mapzen's [Open](https://mapzen.com/blog/we-made-an-app) Android app in 2014. Please use and adapt the open source scene file in your own projects!
 
-**Looking for help?** There is a mini tutorial after the preview image below walking thru [Vector Tiles API key signup](https://github.com/tangrams/cinnabar-style/blob/gh-pages/README.md#sign-up-for-a-vector-tiles-api-key) and [building a Leaflet map](https://github.com/tangrams/cinnabar-style/blob/gh-pages/README.md#building-a-leaflet-map-using-tangram-and-this-scene-file) using Tangram and this repo's scene file.
+**Looking for help?** There is a mini tutorial after the preview image below walking thru [Vector Tiles API key signup](https://github.com/tangrams/cinnabar-style-no-labels/blob/gh-pages/README.md#sign-up-for-a-vector-tiles-api-key) and [building a Leaflet map](https://github.com/tangrams/cinnabar-style-no-labels/blob/gh-pages/README.md#building-a-leaflet-map-using-tangram-and-this-scene-file) using Tangram and this repo's scene file.
 
 ### A family of styles with many flavours
 
 Mapzen offers the Cinnabar style in three flavors:
 
-2. **[Default](https://github.com/tangrams/cinnabar-style)** - Some labels for streets, cities, water bodies, and some big parks with name only (no icons). No business labels. Good for data visualization overlays that need to provide some location context.
-1. **More labels** (this repo) - Full set of labels, including high contrast icons highlighting OpenStreetMap business listing data.
+2. **Default** (this repo) - Some labels for streets, cities, water bodies, and some big parks with name only (no icons). No business labels. Good for data visualization overlays that need to provide some location context.
+1. **[More labels](https://github.com/tangrams/cinnabar-style-more-labels)** - Full set of labels, including high contrast icons highlighting OpenStreetMap business listing data.
 3. **[No labels](https://github.com/tangrams/cinnabar-style-no-labels)** - Just the lines and polygons, please. 
 
 **Looking for a different style?** We offer a range of styles including [Refill](https://github.com/tangrams/refill) (high contrast black & white cartography) and [Zinc](https://github.com/tangrams/zinc-style) (soft gray cartography). 
@@ -19,7 +19,7 @@ Mapzen offers the Cinnabar style in three flavors:
 
 **Live Cinnabar demo:** http://tangrams.github.io/cinnabar-style
 
-![tangram cinnabar style](https://cloud.githubusercontent.com/assets/853051/11080646/c7c6fd26-87ca-11e5-8a04-7316d8721fc4.png)
+![tangram cinnabar style](https://cloud.githubusercontent.com/assets/853051/11084429/f615a860-87ef-11e5-8ca9-6c46cec3534b.png)
 
 
 ## Developer resources
@@ -48,7 +48,7 @@ Using Tangram and Mapzen's Vector tiles inside the popular [Leaflet](http://leaf
 
 ### Tangram resources
 
-1. [Procedural Cartography with Tangram](https://github.com/mapzen/presentations/tree/master/08-2015-JSGEO) Patricio's presentation notes from [JS.Geo](http://www.jsgeo.com) metope last month.
+1. [Procedural Cartography with Tangram](https://github.com/mapzen/presentations/tree/master/08-2015-JSGEO) Patricio's presentation notes from [JS.Geo](http://www.jsgeo.com) metope in August 2015.
 2. [Walkthrough: Make a map with Tangram](https://mapzen.com/documentation/tangram/walkthrough/) by Rhonda on Mapzen's documentation team.
 
 ### To run locally
