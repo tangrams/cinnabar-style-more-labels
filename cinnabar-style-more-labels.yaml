@@ -3490,6 +3490,19 @@ layers:
                 color: global.building2
                 width: [[14,0.1px],[15,0.5px],[17,0.5px],[18,0.75px],[19,0.4m]]
                 extrude: global.sdk_building_extrude
+
+        basement:
+            filter:
+                all:
+                    - layer: [-1, -2, -3, -4, -5]
+            draw:
+                polygons:
+                    extrude: false
+                    order: 329
+                outline:
+                    extrude: false
+                    order: 330
+
         in_park:
             #todo: does forest belong here?
             filter: { landuse_kind: [park,forest,nature_reserve,conservation,golf_course,garden] }
@@ -5065,18 +5078,18 @@ layers:
                         font:
                             style: italic
 
-        # TODO: this isn't working, should see small icons near the transbay terminal in SF
         bus_stop:
             filter:
                 kind: [bus_stop]
             draw:
                 icons:
-                    size: 14px
+                    size: [[18,12px],[20,18px]]
                     text:
+                        optional: true
                         font:
                             size: 11px
                             weight: normal
-            later:
+            early:
                 filter: { $zoom: { max: 19 } }
                 draw:
                     icons:
