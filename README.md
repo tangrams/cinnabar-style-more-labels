@@ -1,3 +1,7 @@
+# WARNING
+
+This repo not maintained, use https://github.com/tangrams/cinnabar-style instead.
+
 # Tangram Cinnabar Style
 
 **Cinnabar** is a classic look and should be your go-to for general mapping applications. Give [OpenStreetMap](http://www.openstreetmap.org/) data a refined basemap skin using the [Tangram](http://github.com/tangrams/tangram) graphics library and Mapzen's versatile [Vector Tiles](https://mapzen.com/projects/vector-tiles/). 
